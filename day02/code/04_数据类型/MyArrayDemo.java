@@ -4,13 +4,13 @@ class MyArrayDemo {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("ÇëÊäÈëÈý¸öÊý¾Ý£º");
+		System.out.println("è¯·è¾“å…¥ä¸‰ä¸ªæ•°æ®ï¼š");
 		int[] arr;
 		int i = 0;
 		arr = new int[3];
 		System.out.println(arr);
 
-		while(true) {
+		while (true) {
 			arr[i] = sc.nextInt();
 			i++;
 			if (i >= arr.length) {
@@ -19,20 +19,18 @@ class MyArrayDemo {
 		}
 
 		/*
-		for (i = 0; i<arr.length; i++) {
-			arr[i] = sc.nextInt();
-			//System.out.println(arr[i]);
-		}
-		*/
+		 * for (i = 0; i<arr.length; i++) { arr[i] = sc.nextInt();
+		 * //System.out.println(arr[i]); }
+		 */
 
-		for (int j=0; j<arr.length; j++) {
-		System.out.println("arr[" +j +"]=" +arr[j]);
+		for (int j = 0; j < arr.length; j++) {
+			System.out.println("arr[" + j + "]=" + arr[j]);
 		}
 
 		int temp = 0;
-		for (int j=1; j<arr.length; j++) {
-			temp = arr[j-1]>=arr[j]?arr[j-1]:arr[j];
+		for (int j = 1; j < arr.length; j++) {
+			temp = arr[j - 1] >= arr[j] ? arr[j - 1] : arr[j];
 		}
-		System.out.println("arrÊý×éÖÐ×î´óÖµÎª£º" +temp);
+		System.out.println("arræ•°ç»„ä¸­æœ€å¤§å€¼ä¸ºï¼š" + temp);
 	}
 }

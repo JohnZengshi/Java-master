@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MyArrayTest",
+      "request": "launch",
+      "mainClass": "MyArrayTest"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - DataType",
+      "request": "launch",
+      "mainClass": "DataType"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ConstantDemo",
+      "request": "launch",
+      "mainClass": "ConstantDemo"
+    }
+  ]
+}

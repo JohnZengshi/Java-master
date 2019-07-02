@@ -1,81 +1,81 @@
 /*
-	ÎªÁË¸üºÃµÄ±í´ïÏÖÊµÊÀ½çµÄÊÂÎï£¬JavaÕë¶Ô²»Í¬µÄÊÂÎïÌá¹©ÁË²»Í¬µÄÊý¾ÝÀàÐÍ¡£
+	ä¸ºäº†æ›´å¥½çš„è¡¨è¾¾çŽ°å®žä¸–ç•Œçš„äº‹ç‰©ï¼ŒJavaé’ˆå¯¹ä¸åŒçš„äº‹ç‰©æä¾›äº†ä¸åŒçš„æ•°æ®ç±»åž‹ã€‚
 
-	Êý¾ÝÀàÐÍ£º
-		»ù±¾ÀàÐÍ£º4Àà8ÖÖ
-		ÒýÓÃÀàÐÍ£ºÀà£¬½Ó¿Ú£¬Êý×é¡£(ºóÃæ½²)
+	æ•°æ®ç±»åž‹ï¼š
+		åŸºæœ¬ç±»åž‹ï¼š4ç±»8ç§
+		å¼•ç”¨ç±»åž‹ï¼šç±»ï¼ŒæŽ¥å£ï¼Œæ•°ç»„ã€‚(åŽé¢è®²)
 
-	»ù±¾ÀàÐÍ:
-		ÕûÊý£º				Õ¼ÓÃµÄÄÚ´æ¿Õ¼ä
-			byte			1×Ö½Ú
+	åŸºæœ¬ç±»åž‹:
+		æ•´æ•°ï¼š				å ç”¨çš„å†…å­˜ç©ºé—´
+			byte			1å­—èŠ‚
 								01111111
-								10000000(1¼È±íÊ¾·ûºÅÎ»£¬ÓÖ±íÊ¾ÊýÖµ -128)
-			short			2×Ö½Ú
-			int				4×Ö½Ú
-			long			8×Ö½Ú
-		¸¡µãÊý£º
-			float			4×Ö½Ú
-			double			8×Ö½Ú
-		×Ö·û£º
-			char			2×Ö½Ú
-		²¼¶û£º
-			boolean			Î´Öª¡£1×Ö½Ú
+								10000000(1æ—¢è¡¨ç¤ºç¬¦å·ä½ï¼Œåˆè¡¨ç¤ºæ•°å€¼ -128)
+			short			2å­—èŠ‚
+			int				4å­—èŠ‚
+			long			8å­—èŠ‚
+		æµ®ç‚¹æ•°ï¼š
+			float			4å­—èŠ‚
+			double			8å­—èŠ‚
+		å­—ç¬¦ï¼š
+			char			2å­—èŠ‚
+		å¸ƒå°”ï¼š
+			boolean			æœªçŸ¥ã€‚1å­—èŠ‚
 
-	ÃæÊÔÌâ£º
-		JavaÖÐ×Ö·û¿ÉÒÔ´æ´¢Ò»¸öºº×ÖÂð?
-		¿ÉÒÔ¡£ÒòÎªJavaÓïÑÔ²ÉÓÃµÄÊÇunicode±àÂë£¬
-		¶øunicode±àÂëµÄÃ¿¸ö×Ö·ûÊÇÁ½¸ö×Ö½Ú£¬
-		ËùÒÔ£¬javaÖÐµÄ×Ö·û¿ÉÒÔ´æ´¢Ò»¸öºº×Ö¡£
+	é¢è¯•é¢˜ï¼š
+		Javaä¸­å­—ç¬¦å¯ä»¥å­˜å‚¨ä¸€ä¸ªæ±‰å­—å—?
+		å¯ä»¥ã€‚å› ä¸ºJavaè¯­è¨€é‡‡ç”¨çš„æ˜¯unicodeç¼–ç ï¼Œ
+		è€Œunicodeç¼–ç çš„æ¯ä¸ªå­—ç¬¦æ˜¯ä¸¤ä¸ªå­—èŠ‚ï¼Œ
+		æ‰€ä»¥ï¼Œjavaä¸­çš„å­—ç¬¦å¯ä»¥å­˜å‚¨ä¸€ä¸ªæ±‰å­—ã€‚
 
 
-	×¢Òâ£º
-		ÕûÊýÄ¬ÈÏÊÇintÀàÐÍ
-		¸¡µãÊýÄ¬ÈÏÊÇdoubleÀàÐÍ
+	æ³¨æ„ï¼š
+		æ•´æ•°é»˜è®¤æ˜¯intç±»åž‹
+		æµ®ç‚¹æ•°é»˜è®¤æ˜¯doubleç±»åž‹
 
-		longÀàÐÍµÄ±äÁ¿£¬Òª¼Ól»òÕßL¡£
-		floatÀàÐÍµÄ±äÁ¿£¬Òª¼Óf»òÕßF¡£
+		longç±»åž‹çš„å˜é‡ï¼Œè¦åŠ læˆ–è€…Lã€‚
+		floatç±»åž‹çš„å˜é‡ï¼Œè¦åŠ fæˆ–è€…Fã€‚
 
-		ÔÚÍ¬Ò»¶Ô{}ÀïÃæ£¬ÊÇ²»ÄÜÓÐÍ¬ÃûµÄ±äÁ¿¡£
+		åœ¨åŒä¸€å¯¹{}é‡Œé¢ï¼Œæ˜¯ä¸èƒ½æœ‰åŒåçš„å˜é‡ã€‚
 */
 class DataType {
 	public static void main(String[] args) {
-		//¶¨Òå±äÁ¿µÄ¸ñÊ½£º
-		//Êý¾ÝÀàÐÍ ±äÁ¿Ãû = ³õÊ¼»¯Öµ;
+		// å®šä¹‰å˜é‡çš„æ ¼å¼ï¼š
+		// æ•°æ®ç±»åž‹ å˜é‡å = åˆå§‹åŒ–å€¼;
 
-		//¶¨ÒåbyteÀàÐÍµÄ±äÁ¿
+		// å®šä¹‰byteç±»åž‹çš„å˜é‡
 		byte b = 1;
 		System.out.println(1);
 		System.out.println(b);
 
-		//¶¨ÒåshortÀàÐÍµÄ±äÁ¿
+		// å®šä¹‰shortç±»åž‹çš„å˜é‡
 		short s = 100;
 		System.out.println(s);
 
-		//¶¨ÒåintÀàÐÍµÄ±äÁ¿
+		// å®šä¹‰intç±»åž‹çš„å˜é‡
 		int i = 100000;
 		System.out.println(i);
 
-		//±¨´í
-		//int j = 2147483648;
-		//System.out.println(j);
+		// æŠ¥é”™
+		// int j = 2147483648;
+		// System.out.println(j);
 
-		//¶¨ÒålongÀàÐÍµÄ±äÁ¿
+		// å®šä¹‰longç±»åž‹çš„å˜é‡
 		long l = 2147483648L;
 		System.out.println(l);
 
-		//¶¨ÒåfloatÀàÐÍµÄ±äÁ¿
+		// å®šä¹‰floatç±»åž‹çš„å˜é‡
 		float f = 12.34F;
 		System.out.println(f);
 
-		//¶¨ÒådoubleÀàÐÍµÄ±äÁ¿
+		// å®šä¹‰doubleç±»åž‹çš„å˜é‡
 		double d = 23.56;
 		System.out.println(d);
 
-		//¶¨ÒåcharÀàÐÍµÄ±äÁ¿
+		// å®šä¹‰charç±»åž‹çš„å˜é‡
 		char ch = 'a';
 		System.out.println(ch);
 
-		//¶¨ÒåbooleanÀàÐÍµÄ±äÁ¿
+		// å®šä¹‰booleanç±»åž‹çš„å˜é‡
 		boolean flag = true;
 		System.out.println(flag);
 	}

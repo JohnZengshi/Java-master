@@ -1,17 +1,17 @@
 /*
-	+ÊÇÒ»¸öÔËËã·û, ÎÒÃÇÓ¦¸ÃÄÜ¹»¿´¶®£¬×öÊı¾İµÄ¼Ó·¨¡£
+	+æ˜¯ä¸€ä¸ªè¿ç®—ç¬¦, æˆ‘ä»¬åº”è¯¥èƒ½å¤Ÿçœ‹æ‡‚ï¼Œåšæ•°æ®çš„åŠ æ³•ã€‚
 
-	²ÎÓëÔËËãµÄÊı¾İ£¬ÒªÇóÀàĞÍÒ»ÖÂ¡£
+	å‚ä¸è¿ç®—çš„æ•°æ®ï¼Œè¦æ±‚ç±»å‹ä¸€è‡´ã€‚
 
-	booleanÀàĞÍ²»ÄÜ×ª»»ÎªÆäËûµÄÊı¾İÀàĞÍ¡£
+	booleanç±»å‹ä¸èƒ½è½¬æ¢ä¸ºå…¶ä»–çš„æ•°æ®ç±»å‹ã€‚
 
-	ÒşÊ½×ª»»£º
+	éšå¼è½¬æ¢ï¼š
 		A:byte,short,char-->int-->long-->float-->double
-		B:byte,short,charÏà»¥Ö®¼ä²»×ª»»£¬ËûÃÇ²ÎÓëÔËËãÊ×ÏÈ×ª»»ÎªintÀàĞÍ
+		B:byte,short,charç›¸äº’ä¹‹é—´ä¸è½¬æ¢ï¼Œä»–ä»¬å‚ä¸è¿ç®—é¦–å…ˆè½¬æ¢ä¸ºintç±»å‹
 */
 class DataTypeDemo {
 	public static void main(String[] args) {
-		//ÀàĞÍÒ»ÑùµÄÊı¾İ
+		// ç±»å‹ä¸€æ ·çš„æ•°æ®
 		int a = 10;
 		int b = 20;
 		System.out.println(a + b);
@@ -19,11 +19,11 @@ class DataTypeDemo {
 		System.out.println(c);
 		System.out.println("--------------");
 
-		//¶¨Òå±äÁ¿
+		// å®šä¹‰å˜é‡
 		byte by = 3;
 		int i = 4;
 		System.out.println(by + i);
-		int j =	by + i;
+		int j = by + i;
 		System.out.println(j);
 	}
 }

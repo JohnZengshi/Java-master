@@ -1,29 +1,28 @@
 /*
-	+:×ö¼Ó·¨²Ù×÷
-		A:Õë¶ÔÊı¾İ²Ù×÷
-		B:Õë¶Ô×Ö·û½øĞĞ×ö+
-			ASCIIÂë±í
+	+:åšåŠ æ³•æ“ä½œ
+		A:é’ˆå¯¹æ•°æ®æ“ä½œ
+		B:é’ˆå¯¹å­—ç¬¦è¿›è¡Œåš+
+			ASCIIç è¡¨
 				'0'	48
 				'A'	65
 				'a'	97
-		C:Õë¶Ô×Ö·û´®½øĞĞ×ö+
-			ÔÚ×Ö·û´®µÄ²Ù×÷ÖĞ£¬½Ğ×Ö·û´®Á¬½Ó·û
+		C:é’ˆå¯¹å­—ç¬¦ä¸²è¿›è¡Œåš+
+			åœ¨å­—ç¬¦ä¸²çš„æ“ä½œä¸­ï¼Œå«å­—ç¬¦ä¸²è¿æ¥ç¬¦
 */
 class DataTypeDemo3 {
 	public static void main(String[] args) {
 		System.out.println('a');
-		System.out.println('a'+1);
-		System.out.println('A'+0);
-		System.out.println('0'+0);
+		System.out.println('a' + 1);
+		System.out.println('A' + 0);
+		System.out.println('0' + 0);
 		System.out.println("-----------");
 
+		System.out.println('a' + 'b');
+		System.out.println("a" + "b");
 
-		System.out.println('a'+'b');
-		System.out.println("a"+"b");
-		
-		System.out.println("hello"+'a'+1); //×ó±ß×Ö·û´®£¬ÍùºóÆ´µÄ¶¼ÊÇ×Ö·û´®
-		System.out.println('a'+1+"hello");
-		System.out.println("5+5="+5+5);
-		System.out.println(5+5+"=5+5");
+		System.out.println("hello" + 'a' + 1); // å·¦è¾¹å­—ç¬¦ä¸²ï¼Œå¾€åæ‹¼çš„éƒ½æ˜¯å­—ç¬¦ä¸²
+		System.out.println('a' + 1 + "hello");
+		System.out.println("5+5=" + 5 + 5);
+		System.out.println(5 + 5 + "=5+5");
 	}
 }
