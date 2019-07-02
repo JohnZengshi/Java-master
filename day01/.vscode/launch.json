@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - NameDemo",
+      "request": "launch",
+      "mainClass": "NameDemo",
+      "projectName": "day01_ad95902d"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - HelloWorld",
+      "request": "launch",
+      "mainClass": "HelloWorld",
+      "projectName": "day01_ad95902d"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Demo",
+      "request": "launch",
+      "mainClass": "Demo",
+      "projectName": "day01_ad95902d"
+    }
+  ]
+}
